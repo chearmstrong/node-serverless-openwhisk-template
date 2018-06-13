@@ -34,8 +34,10 @@ To use Serverless with the OpenWhisk platform, the `serverless-openwhisk` is req
 
 `npm install --global serverless serverless-openwhisk`
 
-I've also included the `serverless-webpack` to bundle the package (to help reduce the overall package size). This is in the `package.json`.
+I've also included the `serverless-webpack` to bundle the package (to help reduce the overall package size) __but this isn't working atm__. 🤔 This is in the `package.json`
 
 ### TODO 🤓
 
-I want to update this to use Webpack v4, plus flesh it out a bit more.
+- Fix Webpack.
+- Update this to use Webpack v4.
+- Flesh it out a bit more.
