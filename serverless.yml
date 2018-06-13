@@ -1,0 +1,21 @@
+
+
+service: hello
+
+provider:
+  name: openwhisk
+  ignore_certs: true
+  runtime: nodejs:6
+  memory: 512 # Overwrite the default memory size. Default is 256
+
+functions:
+  hello:
+    name: ${self:service}-${opt:stage, 'dev'}
+    handler: src/index.handler
+    events:
+      - http: GET hello
+
+plugins:
+  # - serverless-webpack
+  - serverless-openwhisk
+  
