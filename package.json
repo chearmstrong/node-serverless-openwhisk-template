@@ -1,6 +1,6 @@
 {
   "name": "node-serverless-openwhisk-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Serverless OpenWhisk Node.js Template",
   "main": "index.js",
   "keywords": [
@@ -13,13 +13,5 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "npm link serverless-openwhisk"
   },
-  "devDependencies": {
-    "babel": "^6.23.0",
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.2.3",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.7.0",
-    "serverless-webpack": "^5.1.5",
-    "webpack": "^3.10.0"
-  }
+  "devDependencies": {}
 }

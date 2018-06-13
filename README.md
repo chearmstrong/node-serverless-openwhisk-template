@@ -2,7 +2,7 @@
 
 Hello! 😎
 
-This is a Node.js boilerplate/template for the IBM OpenWhisk platform using Serverless - it's set up with a basic `serveless.yml` to get up and running quickly with a Cloud Function and API Gateway.
+This is a Node.js (v8) boilerplate/template for the IBM OpenWhisk platform using Serverless - it's set up with a basic `serveless.yml` to get up and running quickly with a Cloud Function and API Gateway.
 
 Feel free to use this, but I only created this a a quick test and reference point.
 
@@ -34,10 +34,6 @@ To use Serverless with the OpenWhisk platform, the `serverless-openwhisk` is req
 
 `npm install --global serverless serverless-openwhisk`
 
-I've also included the `serverless-webpack` to bundle the package (to help reduce the overall package size) __but this isn't working atm__. 🤔 This is in the `package.json`
-
 ### TODO 🤓
 
-- Fix Webpack.
-- Update this to use Webpack v4.
-- Flesh it out a bit more.
+- Investigate the use of Webpack (v4) for bundling - I know it reduces the size of the package, but does it give any performance benefits? 🤔

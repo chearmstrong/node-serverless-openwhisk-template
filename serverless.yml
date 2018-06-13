@@ -5,7 +5,7 @@ service: hello
 provider:
   name: openwhisk
   ignore_certs: true
-  runtime: nodejs:6
+  runtime: nodejs:8
   memory: 512 # Overwrite the default memory size. Default is 256
 
 functions:
@@ -16,6 +16,5 @@ functions:
       - http: GET hello
 
 plugins:
-  # - serverless-webpack
   - serverless-openwhisk
   
