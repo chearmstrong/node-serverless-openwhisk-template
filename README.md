@@ -30,7 +30,7 @@ Once Serverless is complete, in the output, you'll notice the API Gateway (`api-
 
 ### Plugins 🔌
 
-To use Serverless with the OpenWhisk platform, the `serverless-openwhisk` is required. I've added this as a dev dependency. However, due to an open issue, this must be installed globally with Serverless.
+To use Serverless with the OpenWhisk platform, the `serverless-openwhisk` is required. Due to an open issue, this must be installed globally with Serverless.
 
 `npm install --global serverless serverless-openwhisk`
 
